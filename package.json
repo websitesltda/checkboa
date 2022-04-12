@@ -29,7 +29,8 @@
     "url-loader": "^0.6.2"
   },
   "scripts": {
-   "heroku-postbuild": "npm run build",
+  "dev": "webpack serve",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.8",
