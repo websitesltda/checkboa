@@ -29,8 +29,8 @@
     "url-loader": "^0.6.2"
   },
   "scripts": {
-"dev": "webpack serve",
-    "start": "node server.js",
+    "dev": "webpack serve",
+    "start": "rimraf ./build && react-scripts start",
     "build": "webpack --mode production"
   },
   "devDependencies": {
