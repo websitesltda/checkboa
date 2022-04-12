@@ -29,9 +29,7 @@
     "url-loader": "^0.6.2"
   },
   "scripts": {
-    "dev": "webpack serve",
-    "start": "rimraf ./build && react-scripts start",
-    "build": "webpack --mode production"
+ "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.8",
